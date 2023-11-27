@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:newscreenui/screen/frame.dart';
+import 'package:newscreenui/screen/frame1.dart';
+import 'package:newscreenui/screen/vector.dart';
 
 void main() {
   runApp(const FigmatocodeApp());
@@ -16,7 +17,7 @@ class FigmatocodeApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor:const Color.fromARGB(255, 18, 32, 47),),
        home: Scaffold(
-        body: ListView(children:const [Frame()],)
+        body: ListView(children:[Frame1()],)
     ),);
   }
 }
