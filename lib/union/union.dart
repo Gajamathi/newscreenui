@@ -16,12 +16,7 @@ class Union extends StatelessWidget {
               Container(
                 width: 360,
                 height: 800,
-                decoration:const  BoxDecoration(
-                  image: DecorationImage(
-                    image: NetworkImage("https://via.placeholder.com/360x800"),
-                    fit: BoxFit.fill,
-                  ),
-                ),
+                
               ),
             ],
           ),

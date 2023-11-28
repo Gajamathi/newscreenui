@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:newscreenui/screen/frame2.dart';
 import 'package:newscreenui/union/maskgroup.dart';
-
-
 import 'package:newscreenui/union/union.dart';
 
 void main() {
@@ -20,7 +18,7 @@ class FigmatocodeApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor:const Color.fromARGB(255, 18, 32, 47),),
        home: Scaffold(
-        body: ListView(children:[Frame2()],)
+        body: ListView(children:[MaskGroup()],)
     ),);
   }
 }
