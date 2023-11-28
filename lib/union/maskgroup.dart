@@ -1,37 +1,38 @@
 import 'package:flutter/material.dart';
 
 class MaskGroup extends StatelessWidget {
-  const MaskGroup({Key? key}) : super(key: key); // Corrected the constructor
+  const MaskGroup({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
         SizedBox(
-          width: 328,
-          height: 103,
+          
+          width: 370,
+          height: 130,
           child: Stack(
             children: [
               Positioned(
-                left: 0,
-                top: 0,
+                left: 5,
+                top: 40,
                 child: SizedBox(
-                  width: 360, // Fixed the width to match the parent container
-                  height: 800, // Fixed the height to match the parent container
+                  width: 400,
+                  height: 800,
                   child: Container(
                     decoration: BoxDecoration(
                       border: Border.all(color: Colors.black, width: 2.0),
-                      borderRadius: BorderRadius.circular(5),
-                      image:const  DecorationImage(
+                      borderRadius: BorderRadius.circular(10),
+                      image: const DecorationImage(
                         image: NetworkImage("https://via.placeholder.com/360x800"),
                         fit: BoxFit.fill,
                       ),
                     ),
-                    child: const Stack(
+                    child:const  Stack(
                       children: [
                         Positioned(
-                          left: 111.0,
-                          top: 86.0,
+                          left: 100.0,
+                          top: 10.0,
                           width: 138.0,
                           height: 21.0,
                           child: Text(
@@ -49,6 +50,29 @@ class MaskGroup extends StatelessWidget {
                         ),
                       ],
                     ),
+                  ),
+                ),
+              ),
+              Container(
+                
+  width: 96,
+  height: 49,
+  margin: EdgeInsets.only(top: 118, left: 48),
+  decoration: BoxDecoration(
+    borderRadius: BorderRadius.circular(5),
+  ),
+),
+
+              
+              Positioned(
+                top: 221,
+                left: 20,
+                child: Container(
+                  width: 320,
+                  height: 179,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(5),
+                    border: Border.all(width: 1),
                   ),
                 ),
               ),
