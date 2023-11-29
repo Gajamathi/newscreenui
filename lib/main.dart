@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:newscreenui/screen/frame2.dart';
-import 'package:newscreenui/union/maskgroup.dart';
-import 'package:newscreenui/union/union.dart';
+
 
 void main() {
-  runApp(const FigmatocodeApp());
+  runApp(const FirstUi());
 }
 
-class FigmatocodeApp extends StatelessWidget {
-  const FigmatocodeApp({super.key});
+class FirstUi extends StatelessWidget {
+  const FirstUi({super.key});
 
   // This widget is the root of your application.
   @override
@@ -16,9 +14,9 @@ class FigmatocodeApp extends StatelessWidget {
     return MaterialApp(
       
       theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor:const Color.fromARGB(255, 18, 32, 47),),
+        scaffoldBackgroundColor:Color.fromARGB(255, 1, 4, 7),),
        home: Scaffold(
-        body: ListView(children:[MaskGroup()],)
+        body: ListView(children:[],)
     ),);
   }
 }
