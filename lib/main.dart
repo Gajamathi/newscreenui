@@ -14,7 +14,7 @@ class FirstUi extends StatelessWidget {
     return MaterialApp(
       
       theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor:Color.fromARGB(255, 1, 4, 7),),
+        scaffoldBackgroundColor:Color.fromARGB(255, 172, 184, 196),),
        home: Scaffold(
         body: ListView(children:[],)
     ),);
