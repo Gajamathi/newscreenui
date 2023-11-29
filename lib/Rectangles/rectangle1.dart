@@ -8,7 +8,6 @@ class Rectangle1 extends StatelessWidget{
        Column(
          children: [
            Container(
-            child: Container(
               width: 261,
               height: 100,
               child: Stack(
@@ -34,10 +33,10 @@ class Rectangle1 extends StatelessWidget{
                       ),
                 ),
               ]),
-            ),
-                 ),
-         ],
-       );
+            ),],
+                 );
+         
+       
     
       
     

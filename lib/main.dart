@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:newscreenui/Rectangles/rectangle1.dart';
 
 
 void main() {
@@ -14,9 +15,9 @@ class FirstUi extends StatelessWidget {
     return MaterialApp(
       
       theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor:Color.fromARGB(255, 172, 184, 196),),
+        scaffoldBackgroundColor:Color.fromARGB(255, 28, 29, 30),),
        home: Scaffold(
-        body: ListView(children:[],)
+        body: ListView(children:[Rectangle1()],)
     ),);
   }
 }
