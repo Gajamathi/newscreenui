@@ -48,11 +48,11 @@ class Rectangle1 extends StatelessWidget{
          ),
 
          Row(
+          mainAxisAlignment: MainAxisAlignment.center,
            children: [
              Center(
               
-               child: SizedBox(
-                width: 100,
+
                  child: Container(
                   width: 117,
                   height:76 ,
@@ -62,7 +62,7 @@ class Rectangle1 extends StatelessWidget{
                  
                  ),
                               ),
-               )),
+               ),
              SizedBox(
               width: 100,
              ),
