@@ -5,37 +5,58 @@ class Rectangle1 extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return 
-       Column(
+      Column(
          children: [
-           Container(
-              width: 261,
-              height: 100,
-              child: Stack(
-                children: [Positioned(
-                  left: 0,
-                  top: 54,
-                  child: Row(
-                    mainAxisSize:MainAxisSize.min ,
-                    mainAxisAlignment: MainAxisAlignment.end,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                     children: [
-                          Container(
-                            
-                             decoration:const  BoxDecoration(color: Colors.white10,
-                              image: DecorationImage(
-                                
-                                                  image: AssetImage('assets/Rectangle 4.jpg'),
-                                                  fit: BoxFit.fill,
-                             ),
-                          
-                          ),),
-                        ],
-                      ),
-                ),
-              ]),
-            ),],
-                 );
+          SizedBox(
+            height: 10,
+          ),
+          
+          
+          SizedBox(width: 333,
+         height: 103,
          
+         child: Container(color: Colors.white,
+         child :Center(child: Text('Connected through',style: TextStyle(
+          color: Colors.black,fontSize: 20,
+         ),
+         
+         ),
+         
+         
+         )
+
+         ),
+
+
+         ),
+         SizedBox(
+          height: 50
+          ,
+         ),
+
+         SizedBox(
+          width:333 ,
+          height:179 ,
+          child: Container(
+            color: Color.fromARGB(255, 234, 148, 63),
+          ),
+
+         ),
+         SizedBox(
+          height: 60,
+         ),
+
+         SizedBox(
+          width: 117,
+          height:76 ,
+          child: Container(
+            color: Colors.greenAccent,
+          ),
+
+         )
+          
+                        ],
+                      );
        
     
       
