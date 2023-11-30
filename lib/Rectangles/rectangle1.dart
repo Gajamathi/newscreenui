@@ -43,16 +43,38 @@ class Rectangle1 extends StatelessWidget{
 
          ),
          SizedBox(
-          height: 60,
+          height: 50,
+          
          ),
 
-         SizedBox(
-          width: 117,
-          height:76 ,
-          child: Container(
-            color: Colors.greenAccent,
-          ),
+         Row(
+           children: [
+             Center(
+              
+               child: SizedBox(
+                width: 100,
+                 child: Container(
+                  width: 117,
+                  height:76 ,
+                  child: Container(
+                    color: Colors.greenAccent,
+                    
+                 
+                 ),
+                              ),
+               )),
+             SizedBox(
+              width: 100,
+             ),
+             SizedBox(
+              width: 117,
+              height: 76,
+              child: Container(
+                color: Colors.greenAccent,
+              ),
 
+             )
+           ],
          )
           
                         ],
