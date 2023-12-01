@@ -64,6 +64,8 @@ flutter:
     - assets/Rectangle 4.jpg
     - assets/Rectangle 9.jpg
     - assets/Wifi.jpg
+    - assets/image 16.jpg
+    - assets/Vector.jpg
  
 
   # An image asset can refer to one or more resolution-specific "variants", see

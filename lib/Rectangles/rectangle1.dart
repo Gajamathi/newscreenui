@@ -7,29 +7,32 @@ class Rectangle1 extends StatelessWidget{
     return 
       Column(
          children: [
-          SizedBox(
+         const  SizedBox(
             height: 10,
           ),
           
           
-          SizedBox(width: 333,
-         height: 103,
-         
-         child: Container(color: Colors.white,
-         child :Center(child: Text('Connected through',style: TextStyle(
-          color: Colors.black,fontSize: 20,
-         ),
-         
-         ),
-         
-         
-         )
-
-         ),
-
-
-         ),
-         SizedBox(
+          
+              SizedBox(width: 333,
+                       height: 103,
+                       
+                       child: Container(color: Colors.white,
+                       child :const Center(child: Text('Connected through',style: TextStyle(
+              color: Colors.black,fontSize: 20,
+               
+                       ),
+                       
+                       ),
+                       
+                       
+                       )
+              
+                       ),
+              
+              
+                       ),
+            
+         const SizedBox(
           height: 50
           ,
          ),
@@ -42,7 +45,7 @@ class Rectangle1 extends StatelessWidget{
           ),
 
          ),
-         SizedBox(
+         const SizedBox(
           height: 50,
           
          ),
@@ -54,26 +57,32 @@ class Rectangle1 extends StatelessWidget{
               
 
                  child: Container(
+                  decoration: BoxDecoration(color:Colors.greenAccent, ),
+                  height: 76,
                   width: 117,
-                  height:76 ,
-                  child: Container(
-                    color: Colors.greenAccent,
-                    
                  
+                   child: SizedBox(
+                    width: 10,
+                    height:10 ,
+                    child:Image.asset('assets/image 16.jpg'),
+                                ),
                  ),
-                              ),
                ),
-             SizedBox(
+            const  SizedBox(
               width: 100,
              ),
-             SizedBox(
-              width: 117,
-              height: 76,
-              child: Container(
-                color: Colors.greenAccent,
-              ),
-
-             )
+             Container(decoration: BoxDecoration(color: Colors.greenAccent),
+             width: 117,
+                height: 76,
+               child: SizedBox(
+                width: 10,
+                height: 10,
+                child:Image.asset('assets/Vector.jpg'),
+                  
+                ),
+               
+               ),
+             
            ],
          )
           
