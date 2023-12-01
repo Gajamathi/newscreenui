@@ -13,24 +13,34 @@ class Rectangle1 extends StatelessWidget{
           
           
           
-              SizedBox(width: 333,
-                       height: 103,
-                       
-                       child: Container(color: Colors.white,
-                       child :const Center(child: Text('Connected through',style: TextStyle(
-              color: Colors.black,fontSize: 20,
-               
-                       ),
-                       
-                       ),
-                       
-                       
-                       )
-              
-                       ),
-              
-              
-                       ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                
+                  SizedBox(
+                    
+                    width: 333,
+                           height: 100,
+                           
+                           
+                           child: Container(color: Colors.white,
+                           child :const Center(child: Text('Connected through',style: TextStyle(
+                  color: Colors.black,fontSize: 20,
+                   
+                           ),
+                           
+                           ),
+                           
+                           
+                           )
+                           
+                  
+                           ),
+                  
+                  
+                           ),
+                ],
+              ),
             
          const SizedBox(
           height: 50
@@ -41,7 +51,8 @@ class Rectangle1 extends StatelessWidget{
           width:333 ,
           height:179 ,
           child: Container(
-            color: Color.fromARGB(255, 234, 148, 63),
+            decoration: BoxDecoration( color: Color.fromARGB(255, 234, 148, 63),borderRadius: BorderRadius.circular(5))
+           
           ),
 
          ),
@@ -57,7 +68,7 @@ class Rectangle1 extends StatelessWidget{
               
 
                  child: Container(
-                  decoration: BoxDecoration(color:Colors.greenAccent, ),
+                  decoration: BoxDecoration(color:Colors.greenAccent,borderRadius: BorderRadius.circular(5)  ),
                   height: 76,
                   width: 117,
                  
@@ -71,7 +82,8 @@ class Rectangle1 extends StatelessWidget{
             const  SizedBox(
               width: 100,
              ),
-             Container(decoration: BoxDecoration(color: Colors.greenAccent),
+             Container(decoration: BoxDecoration(color: Colors.greenAccent,borderRadius: BorderRadius.circular(5)),
+             
              width: 117,
                 height: 76,
                child: SizedBox(
